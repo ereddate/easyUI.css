@@ -1,0 +1,554 @@
+@charset "utf-8";
+
+/* code {
+    font-size: 12px;
+    padding: 2px 4px;
+    color: #d14;
+    white-space: nowrap;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+} */
+
+.page {
+    padding-top: 20px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page_pr {
+}
+
+.pleft {
+    position: fixed;
+    top: 20px;
+    bottom: 20px;
+    width: 250px;
+    overflow:scroll;
+    overflow-x:hidden;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+
+.pleft ul {
+    overflow: hidden;
+}
+
+.pleft ul li {
+    border-bottom: 1px solid #e5e5e5;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 15px;
+    color: #222;
+    font-size: 14px;
+}
+
+.pleft ul li:last-child {
+    border-bottom: 0;
+}
+
+.pleft ul li a {
+    display: block;
+    width: 100%;
+    height: 32px;
+    color: #08c;
+    position: relative;
+}
+
+.pleft ul li a:hover {
+    color: #08c;
+    background: #f5f5f5;
+}
+
+.pleft ul li a:after {
+    content: "";
+    font-family: sans-serif;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    right: 12px;
+    width: 6px;
+    height: 6px;
+    font-size: 18px;
+    background: #e0e0e0;
+    border-radius: 50%;
+}
+
+.pleft ul li.on a {
+    color: #fff;
+    background: #08c;
+}
+
+.pleft ul li.on a:after {
+    background: #fff;
+}
+
+.pleft ul li.son {
+    text-indent: 40px;
+    font-size: 12px;
+}
+
+.pright {
+    margin-left: 280px;
+}
+
+.page_tit {
+    font-size: 38px;
+    padding-bottom: 20px;
+    color: #5a5a5a;
+}
+
+.page_tit2 {
+    font-size: 30px;
+    padding-bottom: 16px;
+    color: #5a5a5a;
+}
+
+.page_tit span,
+.page_tit2 span {
+    font-size: 15px;
+    color: #08c;
+}
+
+.page_tit3 {
+    font-size: 14px;
+    padding-bottom: 18px;
+}
+
+.page_tit4 {
+    padding-bottom: 18px;
+}
+
+.page_tit4:last-child {
+    padding-bottom: 0;
+}
+
+.page_tit3 span {
+    color: #08c;
+}
+
+.ptable {
+    width: 100%;
+    font-size: 14px;
+}
+
+.ptable tr>td {
+    border: 1px solid #ddd;
+    padding: 14px 6px;
+}
+
+.ptable tr.first {
+    font-weight: bold;
+}
+
+.ptable tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.ptable span.red {
+    color: #d14;
+}
+
+.maindiv {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+.pre {
+    background: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    padding: 15px 8px;
+    position: relative;
+    border-radius: 0 0 5px 5px;
+}
+
+.pre.on {
+    background: #1b2426;
+}
+
+.pre ol {
+    margin-left: 28px;
+    line-height: 22px;
+    position: relative;
+    z-index: 2;
+}
+
+.pre ol li {
+    padding-left: 15px;
+    color: #bebec5;
+    font-size: 14px;
+}
+
+.pre.on ol li {
+    color: #fff;
+}
+
+.pre ol li span {
+    color: teal;
+}
+
+.pre ol li span span {
+    color: #d14;
+}
+
+.pre.on ol li span {
+    color: #fff;
+}
+
+.pre.on ol li span span {
+    color: #fe4d79;
+}
+
+.pre ol li.level2 {
+    padding-left: 30px;
+}
+
+.pre ol li.level3 {
+    padding-left: 45px;
+}
+
+.pre ol li.level4 {
+    padding-left: 60px;
+}
+
+.pre ol li.level5 {
+    padding-left: 75px;
+}
+
+.pre ol li.level6 {
+    padding-left: 90px;
+}
+
+.pre ol li.level7 {
+    padding-left: 105px;
+}
+
+.pre ol li.level8 {
+    padding-left: 120px;
+}
+
+.pre ol li.level9 {
+    padding-left: 135px;
+}
+
+.pre ol li.level10 {
+    padding-left: 150px;
+}
+
+.pre:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-right: 1px solid #ececf0;
+    z-index: 1;
+    border-radius: 0 0 0 5px;
+}
+
+.pre.on:after {
+    background: #242e30;
+    border-color: #435a5f;
+}
+
+.preicon {
+    height: 19px;
+    margin-left: 42px;
+    margin-top: 15px;
+}
+
+.preicon span {
+    display: inline-block;
+    width: 18px;
+    height: 19px;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.precopy1 {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.precopy1:before,
+.precopy1:after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    left: 3px;
+}
+
+.precopy1:before {
+    top: 6px;
+    width: 10px;
+}
+
+.precopy1:after {
+    top: 11px;
+    width: 10px;
+}
+
+.precopy2 {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.precopy2:before,
+.precopy2:after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    left: 3px;
+}
+
+.precopy2:before {
+    top: 4px;
+    width: 10px;
+}
+
+.precopy2:after {
+    top: 8px;
+    width: 7px;
+    border-bottom: 1px solid #ccc;
+    background-clip: content-box;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+.pretype {
+    border-radius: 50%;
+    background-color: #c2c2c2;
+    position: relative;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.pre.on .pretype {
+    background-color: #fff;
+}
+
+.pretype:after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background-color: #f7f7f9;
+    border-radius: 50%;
+}
+
+.pre.on .pretype:after {
+    background-color: #1b2426;
+}
+
+.precode {
+    display: none;
+    margin-left: 42px;
+    min-height: 100px;
+    margin-right: 2px;
+}
+
+.precode .xtext {
+    height: 100%;
+    font-size: 14px;
+}
+
+.example {
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    border-radius: 5px 5px 0 0;
+    padding: 38px 28px 18px;
+    position: relative;
+    clear:both;
+    overflow: hidden;
+}
+
+.example:before {
+    content: "Example";
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    color: #9da0b5;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f5f5f5;
+    padding: 0 8px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px 0 5px 0;
+}
+
+.table_row {
+    padding-bottom: 40px;
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8 {
+    border: 1px #cccccc solid;
+    background-color: #efefef;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+.dib-box .dib {
+    vertical-align: top;
+    font-size: 12px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: inherit;
+}
+
+.icon_lists {
+    width: 100% !important;
+    overflow: hidden;
+    *zoom: 1;
+}
+
+.icon_lists li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    list-style: none !important;
+    cursor: default;
+}
+
+.icon_lists li .code-name {
+    line-height: 1.2;
+}
+
+.icon_lists .icon {
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    font-size: 42px;
+    margin: 10px auto;
+    color: #333;
+    -webkit-transition: font-size 0.25s linear, width 0.25s linear;
+    -moz-transition: font-size 0.25s linear, width 0.25s linear;
+    transition: font-size 0.25s linear, width 0.25s linear;
+}
+
+.icon_lists .icon:hover {
+    font-size: 100px;
+}
+
+.icon_lists .svg-icon {
+    /* 通过设置 font-size 来改变图标大小 */
+    width: 1em;
+    /* 图标和文字相邻时，垂直对齐 */
+    vertical-align: -0.15em;
+    /* 通过设置 color 来改变 SVG 的颜色/fill */
+    fill: currentColor;
+    /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示
+      normalize.css 中也包含这行 */
+    overflow: hidden;
+}
+
+.icon_lists li .name,
+.icon_lists li .code-name {
+    color: #666;
+}
+
+.color-swatches{
+    display:flex;
+    font-size:12px;
+}
+.color-swatches .color-swatch{
+    margin:10px 10px;
+    text-align: center;
+    width:200px;
+}
+.color-swatches .color-swatch .item{
+    width:100px;
+    height:100px;
+    border:1px #000000 solid;
+    margin:0 auto;
+}
+
+
+.es-card-img-top {
+    font-size: 1.125rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-anchor: middle;
+    width: 100%;
+    height: 180px;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.es-card-img-top svg{
+    fill: #dcdde0;
+    width: 22%;
+    height: 22%;
+}
+
+.example .es-image{
+    float:left;
+    margin:10px 10px;
+}
+
+.example .es-progress, .example .es-steps{
+    margin-bottom:10px;
+}
+
+.example .es-modal{
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 1;
+    display: block;
+}
+
+.example .list-unstyled ul, .example .list-unstyled ul li{
+    list-style-type:circle;
+    list-style-position: inside;
+}
+
+.layout-header,.layout-footer{
+    background-color: #7cbce9;
+}
+.layout-content{
+    background-color: #0f8de9;
+}
+.layout-sider{
+    background-color: #3a9fe8;
+}

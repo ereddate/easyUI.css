@@ -1,0 +1,16 @@
+@charset "utf-8";
+body, input, textarea, select, button, code, pre {font-family:"Open Sans", "Arial", "PingFangSC-Light", "Microsoft Yahei", "SimSun", sans-serif;}
+html {background-color:#fff;}
+body {font-size:12px; color:#222; min-height:100vh;}
+a {color:#222; text-decoration:none;}
+a:focus {outline:0;}
+a:hover {text-decoration:none;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, code, pre, form, fieldset, legend, input, button, textarea, area, blockquote, th, td, p, figure {margin:0; padding:0;}
+img, a img {border:0;}
+img, label input, video {vertical-align:middle;}
+table {border-collapse:collapse; border-spacing:0;}
+li {list-style-type:none;}
+input, textarea, select, button, video {outline:none;}
+input[type="text"], input[type="password"], textarea {resize:none; appearance:none; border-radius:0;}
+button, input[type="submit"], input[type="button"], label, label input[type="checkbox"], label input[type="radio"] {cursor:pointer;}
+select {-webkit-appearance:none; background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGAQMAAADwsoykAAAABlBMVEUAAAAAAAClZ7nPAAAAAXRSTlMAQObYZgAAABhJREFUCNdjAIL/DQz1DAx2DAwyDAwcDAAchQJh0xr+nAAAAABJRU5ErkJggg==") no-repeat right center #fff; height:24px; padding-left:3px; padding-right:20px; border-radius:0; border:1px #ddd solid;}

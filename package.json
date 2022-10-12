@@ -1,0 +1,17 @@
+{
+  "name": "easyui.css",
+  "version": "0.0.1",
+  "description": "A cross-browser library of CSS UI components",
+  "main": "easyui.css",
+  "author": {
+    "name": "ereddate@gmail.com"
+  },
+  "license": "ISC",
+  "scripts": {},
+  "browserslist": [
+    "> 3%",
+    "last 2 versions"
+  ],
+  "style": "./easyui.css",
+  "devDependencies": {}
+}
